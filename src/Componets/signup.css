@@ -1,0 +1,106 @@
+/* Container for the signup modal */
+.signup-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background with transparency */
+}
+
+/* Styling for the modal content */
+.modal-content-signup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 11vh;
+  
+}
+
+/* Header of the modal */
+.modal-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* User type button container (for Founder and Investor buttons) */
+.user-type-selection {
+    display: flex;
+    justify-content: space-between; /* Space between the two buttons */
+    margin-bottom: 20px; /* Space between buttons and the form */
+}
+
+/* Individual button styles */
+.button-signup {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 48%; /* Make both buttons equal width */
+}
+
+/* Close button for the modal */
+.Close-button-signup {
+    position: absolute;
+    right: 38vw;
+    color: #000;
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+/* Align form fields (if any additional form fields are below the buttons) */
+.form-field {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.name-signup {
+    width: 11.7vw;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.signup-signup-form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.name-inputs-signup{
+    display: flex;
+    margin-right: 1vw;
+    justify-content: start;
+    gap: 0.3vw;
+}
+
+/* Ensure form fields are centered and have some spacing */
+.founder-signup-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.signup-investor-button,
+.signup-founder-button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 24vw;
+}
